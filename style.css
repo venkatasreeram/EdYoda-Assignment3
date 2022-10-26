@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+a.Your_Acount {
+    color: #A389CC;
+    background-color: #FFD8DB;
+    padding: 18px 35px;
+    border-radius: 20px;
+    text-decoration: unset;
+    font-weight: 800;
+}
+
+header {
+    padding: 15px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul.menu li a {
+    padding: 3px 0;
+    margin: 0px 25px;
+    border-bottom: 4px solid transparent;
+    color: #b7b6b4;
+    text-decoration: unset;
+}
+
+header ul.menu li a:hover,
+ul.menu li a.active {
+    border-bottom: 4px solid #8071D0;
+    color: #000;
+}
+
+header ul.menu {
+    width: auto;
+    display: -webkit-inline-box;
+    list-style: none;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.New_Account_div {
+    margin: 25px 0;
+    display: table;
+}
+
+a.New_Account {
+    background-color: #5243C0;
+    color: #fff;
+    padding: 20px 30px;
+    width: auto;
+    float: left;
+    border-radius: 20px;
+}
+
+img.New_Account_up {
+    margin: 0 20px;
+}
+
+.period{
+    color: #8071D0;
+}
+
+.right_image {
+    width: 50%;
+    float: right;
+}
+
+.right_image img {
+    width: 85%;
+    float: left;
+}
+
+.Stunning_Workplace {
+    width: 100%;
+    float: left;
+}
+
+.Stunning_Workplace_left {
+    width: 35%;
+    float: left;
+    padding-left: 10%;
+}
+
+.Stunning_Workplace_left h2 {
+    font-size: 76px;
+}
+
+.Stunning_Workplace_left h2 span {
+    background-color: #8071D0;
+    font-size: 12px;
+    padding: 2px 6px;
+    margin-left: 9px;
+}
+
+.Stunning_Workplace_left p {
+    color: #b7b6b4;
+}
+
+
+table tr img.hover_in {
+    display: none;
+}
+
+table tr:hover img.hover_in {
+    display: block;
+}
+
+table tr img.hover_out {
+    display: block;
+}
+
+table tr:hover img.hover_out {
+    display: none;
+}
+
+table tr td {
+    padding: 2px 13px;
+}
+
+table tr td span.dot_color {
+    background-color: #FED7DA;
+    padding: 0 14px;
+    color: #FED7DA;
+    border-radius: 15px;
+}
+
+table tr.card_Yellow td span.dot_color {
+    padding: 0 14px;
+    border-radius: 15px;
+}
+
+table tr.card_Green td span.dot_color {
+    color: #9ED095;
+    background-color: #9ED095;
+}
+
+table tr.card_Yellow td span.dot_color {
+    color: #FFE4A0;
+    background-color: #FFE4A0;
+}
+
+table tr.card_Red td span.dot_color {
+    color: #FD6534;
+    background-color: #FD6534;
+}
+
+table tr.card_Pink td span.dot_color {
+    color: #FED7DA;
+    background-color: #FED7DA;
+}
+
+table tr:hover {
+    box-shadow: 0 0 15px 0px #888888;
+}
+
+table tr {
+    /* box-shadow: 0 0 15px 0px #888888; */
+    margin: 15px 5px;
+    display: table;
+}
